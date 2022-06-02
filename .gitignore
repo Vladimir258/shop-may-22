@@ -8,3 +8,7 @@
 .idea/modules.xml
 
 shop-may-22.iml
+
+*.class
+
+1.txt
