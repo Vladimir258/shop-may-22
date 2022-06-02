@@ -28,4 +28,9 @@ public class InMemProductsRepository implements ProductsRepository {
         return products.stream().filter(p -> p.getId().equals(id)).findFirst()
                 .orElseThrow(RuntimeException::new);
     }
+
+    @Override
+    public List<Product> findAll() {
+        return products;
+    }
 }
